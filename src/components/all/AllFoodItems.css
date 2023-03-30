@@ -1,0 +1,97 @@
+.dashboard-content1{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color:rgba(218, 238, 179, 0.932);
+}
+
+
+
+.dashboard-content {
+
+
+    padding: 10px;
+    /* margin-top: 20px; */
+   
+}
+
+
+
+.dashboard-card {
+ 
+    
+    background-color: #f6f8fa;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.dashboard-card:hover {
+    box-shadow: 0px 5px 15px black;
+
+} 
+
+.card-image {
+
+    width: 250px;
+    /* padding: 20px; */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-detail {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* .card-detail :hover {
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+} */
+
+.card-detail>h4>span {
+
+    float: right;
+
+}
+
+.card-time {
+
+    color: #61666b;
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+.cart-icons {
+
+    background-color: #008000;
+    padding: 10px;
+    border-radius: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+    color: #f6f8fa;
+
+
+}
+
+.angles {
+
+    height: 26px;
+    width: 36px;
+    font-size: 10px;
+    background-color:rgba(0, 128, 0, 0.952);
+    /* line-height: 46px; */
+    /* border-radius: 50%; */
+    color: #fff;
+    border-radius:10px;
+    margin: 2px;
+    cursor: pointer;
+}

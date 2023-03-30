@@ -1,0 +1,23 @@
+.main-slider{
+
+    width:1000px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: white;
+    
+    /* opacity: 0.7; */
+    
+   
+}
+.main-div{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* background-position: center;
+    background-size: cover; */
+    /* background-image: url(/public/indian/tanturi.jpg); */
+    background-color:whitesmoke; 
+    
+    
+}
