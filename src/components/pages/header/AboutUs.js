@@ -1,50 +1,25 @@
 import React from 'react'
-// import Header from './header'
+import "./about.css"
+import abt from "../../../images/aboutus.jpg"
 
 const AboutUs = () => {
   return (
     <>
-    {/* <Header/> */}
-   <section className='contcat'>
+   <div className='heading'>
 
-   <div className='content'>
-
-     <h2>Contact Us</h2>
-     <p>Restaurant-to-consumer Many restaurants including pizza chains famous for their fast delivery, 
-      such as Domino’s and Pizza Hut, 
-      have invested in their own direct to consumer apps. </p>
-      </div>
-      <div className='container'>
-        <div className='contactInfo'>
-          <div className='box'>
-            <div className='icon'>
-              <div className='text'>
-                <h3>Address</h3>
-                <p>4671 camp Road,Rayaprttah High Road,600 004</p>
-              </div>
-            </div>
-          </div>
-          <div className='box'>
-            <div className='icon'>
-              <div className='text'>
-                <h3>Ph-Num</h3>
-                <p>987-654-321</p>
-              </div>
-            </div>
-          </div>
-          <div className='box'>
-            <div className='icon'>
-              <div className='text'>
-                <h3>Email</h3>
-                <p>ivyadivya30@gmail.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
+    <h2>About Us</h2>
+    <p> Food delivery apps are the new favorite of the people and that is the final verdict. </p>
+   </div>
+   <section className="about-us">
+    <img src={abt}  alt="Aboutus"/>
+    <div className='content'>
+    <h2 className='Desc-1'>Food delivery apps are the new favorite of the people and that is the final verdict.</h2>
+     <p>Food delivery apps are the new favorite of the people and that is the final verdict. 
+      The ease food delivery apps offer to the people who don’t want to cook at the end of the day is 
+      what makes it more loved than any other apps out there. 
+      But what more do you need to know before you start building your food delivery app</p>
+      <button className='Read-more-btn'>Read-more</button>
+    </div>
 
    </section>
     </>

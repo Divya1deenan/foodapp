@@ -2,7 +2,6 @@ import React from 'react'
 import "./header.css"
 import { Link } from 'react-router-dom'
 import logo from "../../../images/jetto1.png"
-// import {useNavigate} from "react-router-dom"
 import { useHistory } from 'react-router-dom'
 
 const Header = () => { 

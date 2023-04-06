@@ -2,6 +2,8 @@
 .indian{
 
     color: black;
+    border: 20px;
+   
     
 }
 
@@ -10,17 +12,14 @@
 
     min-width: 350px;
 
-    /* flex-wrap: wrap; */
-    /* max-width: 250px;  */
+    
      display: flex;
-    /* flex-grow: 1; */
+    
     padding: 10px;
     justify-content: center;
     align-items: center; 
     position: relative;
-    /* background-color: burlywood; */
-    /* background-color: burlywood; */
-    /* background-image: url(/public/indian/kebab.jpg); */
+   
 
 
 }
@@ -33,16 +32,14 @@
 .dashboard-content {
 
     padding: 10px;
-    /* background-color: burlywood; */
-    /* margin-top: 30px; */
-    /* margin:30px; */
+   
 }
 
 .dashboard-card {
  
     
     background-color: #f6f8fa;
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  
     border-radius: 15px;
     position: relative;
     cursor: pointer;
@@ -57,7 +54,6 @@
 .card-image {
 
     width: 250px;
-    /* padding: 20px; */
     height: 200px;
     object-fit: cover;
     border-radius: 15px;

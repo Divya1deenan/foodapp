@@ -26,7 +26,9 @@ function FrenchFood() {
 
     }
     return (
-        <div className='dashboard-content'>
+        <>
+         <h1 className='indian'>French Food</h1>        
+         <div className='dashboard-content'>
 
             {
 
@@ -55,6 +57,7 @@ function FrenchFood() {
             }
 
         </div>
+        </>
 
     )
 }

@@ -1,0 +1,66 @@
+.heading{
+
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h2{
+    font-size: 50px;
+    color: burlywood;
+    margin-bottom: 10px;
+}
+.heading p{
+
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 50px;
+}
+.about-us{
+
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.about-us img{
+
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+}
+.content{
+
+    padding: 35px;
+
+}
+.content h2{
+
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0;
+}
+.content p{
+
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+
+}
+.Read-more-btn{
+
+    display: inline-block;
+    color: #fff;
+    background-color: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.Read-more-btn:hover{
+
+    background-color: #006dd6;
+    
+
+}

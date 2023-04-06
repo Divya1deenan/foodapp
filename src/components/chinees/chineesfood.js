@@ -26,6 +26,8 @@ function Chineesfoods() {
 
 
     return (
+        <>
+        <h1 className='indian'>Chinees Food</h1>
         <div className='dashboard-content'>
 
             {
@@ -53,7 +55,7 @@ function Chineesfoods() {
             }
 
         </div>
-
+        </>
     )
 }
 

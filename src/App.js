@@ -3,9 +3,7 @@ import './App.css';
 import Home from './home/home';
 import Login from './login/login';
 
-// import {Navigate} from 'react-dom'
 
-// import Registration from './components/registration/registration';
 import {
 
   BrowserRouter,
@@ -15,7 +13,7 @@ import {
   // Router
 } from "react-router-dom";
 import Registration from './registration/registration';
-// import AllDish from './components/all/alldish';
+
 import AllFoodItems from './components/all/AllFoodItems';
 import SingleFood from './components/single/singleFood';
 import AboutUs from './components/pages/header/AboutUs';
@@ -24,6 +22,7 @@ import Cart from './cart';
 
 import { Provider } from 'react-redux';
 import store from './components/store/store';
+
 
 
 function App() {
